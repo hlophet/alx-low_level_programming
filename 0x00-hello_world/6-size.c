@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main: entry point
- *
+ * Size task program
  * Return: Always 0 (Success)
  */
 int main(void)
