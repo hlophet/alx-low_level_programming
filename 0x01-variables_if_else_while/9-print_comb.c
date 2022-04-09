@@ -8,7 +8,9 @@
  */
 int main(void)
 {
-	for (int s = 48; s <= 57; s++)
+	int s;
+
+	for (s = 48; s <= 57; s++)
 	{
 		if (s != 57)
 		{
@@ -21,5 +23,5 @@ int main(void)
 			putchar(s);
 		}
 	}
-	return(0);
+	return (0);
 }
