@@ -4,12 +4,14 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints the alphabet in lowercase, followed by a new line.
+ * Description: prints the alphabet in lowercase\n
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	for (char c = 'a'; c <= 'z'; c++)
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
 	{
 		if (c != 'e' || c != 'q')
 		{
@@ -17,5 +19,5 @@ int main(void)
 		}
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
