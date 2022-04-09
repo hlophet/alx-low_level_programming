@@ -19,7 +19,7 @@ int main(void)
 				putchar(c);
 
 				if (b != '8' || (b == '8' && c != '9'))
-				{	
+				{
 					putchar(44);
 					putchar(' ');
 				}

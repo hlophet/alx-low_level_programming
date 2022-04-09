@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description: prints combinations of 3 numbers
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
                putchar(k);
                if (c != '7')
 	       {
-                  putchar(',');		
+                  putchar(',');
                   putchar(' ');
                }
 	    }
