@@ -10,7 +10,7 @@ int main(void)
 {
 	int s = 48;
 	int p = 97;
-	
+
 	while (s <= 57)
 	{
 		putchar(s);
@@ -22,5 +22,5 @@ int main(void)
 		p++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
