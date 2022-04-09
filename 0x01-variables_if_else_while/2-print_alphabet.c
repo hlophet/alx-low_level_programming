@@ -4,15 +4,15 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Desciption: prints the alphabet in lowercase, followed by a new line
+ * Description: prints the alphabet in lowercase, followed by a new line
  * Return: Always ) (Success)
  */
 int main(void)
 {
-	for(char i = 'a'; i <= 'z'; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return(0);
+for(char i = 'a'; i <= 'z'; i++)
+{
+putchar(i);
+}
+putchar('\n');
+return(0);
 }
