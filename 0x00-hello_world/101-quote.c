@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <unistdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- *
- * Rerturn: Always 0 (Success)
+ * Desctiption: prints a line to the std error
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
