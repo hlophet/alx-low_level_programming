@@ -1,12 +1,7 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
-<<<<<<< HEAD
  * Description: Size program
-=======
- *
->>>>>>> 9e6085199a2793de29e5905998c5b7bf090bb955
  * Return: Always 0 (Success)
  */
 int main(void)
