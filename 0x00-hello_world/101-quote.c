@@ -4,6 +4,8 @@
  * main - Entry point
  * Desctiption: prints a line to the std error
  * Return: Always 0 (Success)
+ *
+ * function main begins program execution
  */
 int main(void)
 {
