@@ -7,18 +7,17 @@
  */
 int main(void)
 {
-long int i, x = 1, y = 2, sum = 0, totalSum = 0;
+	int a = 0, b = 1, next = 0;
+	int sum = 0;
 
-for (i = 0; i < 49; i++)
-
-if ((y % 2 == 0) && (y <= 4000000))
-{
-totalSum = totalSum + y;
-}
-sum = x + y;
-x = y;
-y = sum;
-}
-printf("%d\n", totalSum);
-return (0);
+	while (next < 4000000)
+	{
+		next = a + b;
+		a = b;
+		b = next;
+		if (next % 2 == 0)
+			sum += next;
+	}
+	printf("%i\n", sum);
+	return (0);
 }
