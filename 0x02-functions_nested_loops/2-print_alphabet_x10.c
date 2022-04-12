@@ -6,7 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
-int alphabet;
+int alpha;
 int count;
 
 count = 0;
