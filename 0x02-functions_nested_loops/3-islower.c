@@ -1,11 +1,9 @@
-lines (20 sloc)  308 Bytes
-#include "holberton.h"
-
+#include "main.h"
 /**
  * _islower - Entry point
  * Description: checks for lowercase alphabets
- * @c: the integer value it receives
- * Return: 1 if true. 0 if false.
+ * c: the integer value it receives
+ * Return: 1 if true, 0 if false
  */
 int _islower(int c)
 {
