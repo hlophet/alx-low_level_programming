@@ -19,6 +19,6 @@ sum = x + y;
 x = y;
 y = sum;
 }
-printf("%ld\n", totalSum);
+printf("%d\n", totalSum);
 return (0);
 }
