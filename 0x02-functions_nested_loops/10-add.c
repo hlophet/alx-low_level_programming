@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * add - entry point
- * @n1: integer 1
- * @n2: integer 2
+ * @a: integer 1
+ * @b: integer 2
  * Description: calculates the sum of 2 numbers
  * Return: sum
  */
