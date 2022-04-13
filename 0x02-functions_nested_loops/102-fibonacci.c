@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
- * description: printd the first 50 fibonacci numbers
- * return: always 0 (success)
+ * main - Entry point
+ * Description: printd the first 50 fibonacci numbers
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
