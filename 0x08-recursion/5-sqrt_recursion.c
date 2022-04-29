@@ -8,13 +8,13 @@
  */
 int find_sqrt(int num, int root)
 {
-  if ((root * root) == num)
-    return (root);
+if ((root * root) == num)
+return (root);
 
-  if ((root * root) > num)
-    return (-1);
-  
-  return (find_sqrt(num, root + 1));
+if ((root * root) > num)
+return (-1);
+
+return (find_sqrt(num, root + 1));
 }
 
 /**
@@ -25,5 +25,5 @@ int find_sqrt(int num, int root)
  */
 int _sqrt_recursion(int n)
 {
-  return (find_sqrt(n, 1));
+return (find_sqrt(n, 1));
 }
