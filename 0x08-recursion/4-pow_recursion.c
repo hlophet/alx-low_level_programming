@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _pow_recursion - calculates the exponent x to the power of y
+ * _pow_recursion - calculates the exponent of base x to the power of y
  * @x: base number to raise to y
  * @y: exponent that x is raised to
- * return: an integer - exponent of base x raised to y,
+ * Return: an integer - exponent of base x raised to y,
  *                    - if y is 0 then exponent is 1,
  *                    - if y is negative then exponent is 1
  */
