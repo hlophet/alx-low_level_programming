@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * factotial - calculates the factorial of a number n
+ * factorial - calculates the factorial of a number n
  * @n: integer
- * return: the factorial of a given number, 1 if n = 0, -1 if n < 0
+ * Return: factorial of the number n,
+ *         or  1: if n = 0,
+ *         or -1: if n < 0
  */
 int factorial(int n)
 {
