@@ -3,8 +3,8 @@
  * find_sqrt - finds the natural square root of a given number
  * @num: number to find find the sqaure root of
  * @root: roo tot be examine
- * return: sqaure root if n has  a natural sqaure root,
- *         -1 if n does not have a nutural sqaure root
+ * Return: sqaure root if @num has a natural sqaure root,
+ *         or -1 if @num does not have a nutural sqaure root
  */
 int find_sqrt(int num, int root)
 {
@@ -20,7 +20,7 @@ int find_sqrt(int num, int root)
 /**
  * _sqrt_recursion - gives the natural sqaure root of a number
  * @n: number to return the square root of
- * return: natural sqaure root if n has a natural sqaure root,
+ * Return: natural sqaure root if @n has a natural sqaure root,
  *         or -1 if n does not have a natural sqaure root
  */
 int _sqrt_recursion(int n)
