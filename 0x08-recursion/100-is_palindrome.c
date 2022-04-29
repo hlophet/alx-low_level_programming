@@ -22,7 +22,7 @@ int _strlen(char *str, int len)
  */
 int palindrome_check(char *str, int len)
 {
-  if (*str != *(str + 1))
+  if (*str != *(str + len))
       return (0);
   else if (*str == '\0')
 	return (1);
