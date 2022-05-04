@@ -37,8 +37,8 @@ return (NULL);
 
 for (i = 0; i < height; i++)
 {
-  for (j = 0; j < width; j++)
-	DD[i][j] = 0;
+for (j = 0; j < width; j++)
+DD[i][j] = 0;
 }
 
 return (DD);
