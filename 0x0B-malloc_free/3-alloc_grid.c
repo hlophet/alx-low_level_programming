@@ -27,8 +27,8 @@ DD[i] = malloc(sizeof(int) * width);
 
 if (DD[i] == NULL)
 {
-  for (; i >= 0; i--)
-	free(DD[i]);
+for (; i >= 0; i--)
+free(DD[i]);
 
 free(DD);
 return (NULL);
