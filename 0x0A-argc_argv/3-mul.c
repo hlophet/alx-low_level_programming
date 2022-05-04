@@ -11,8 +11,8 @@ int main(int argc, char *argv[])
 {
 int i = 1, diff = 1;
 
-__attribute__((unused)) argv;
-  
+(void) argv;
+
 if (argc < 2)
 {
 printf("Error\n");
