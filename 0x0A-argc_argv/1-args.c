@@ -7,9 +7,14 @@
  * @argv: array of size @argc
  * Return: Always 0 (success)
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
+  int i = 0;
+
   (void) argv;
-  printf("%i\n", argc - 1);
-  return (0);
+  while (i < (argc -1))
+    i++;
+
+printf("%d\n", i);
+return (0);
 }
