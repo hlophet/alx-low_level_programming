@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * factotial - calculates t he factorial of a number
+ * @n: given number
+ * return: the factorial of a given number
+ */
+int factorial(int n)
+{
+if (n == 0)
+return (1);
+if (n < 0)
+return (-1);
+return (n * factorial(n - 1));
+}
