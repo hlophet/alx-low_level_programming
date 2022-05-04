@@ -23,9 +23,9 @@ copy = malloc(sizeof(char) * (len + 1));
 if (copy == NULL)
 return (NULL);
 
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; str[i]; i++)
 copy[i] = str[i];
 
-copy[i] = '\0';
-return (str1);
+copy[len] = '\0';
+return (copy);
 }
