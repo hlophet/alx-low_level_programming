@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * _calloc - allocates memory for an array using malloc
@@ -27,5 +26,5 @@ arr2 = arr1;
 for (i = 0; i < (nmemb * size); i++)
 arr2[i] = '\0';
 
-return (0);
+return (arr1);
 }
