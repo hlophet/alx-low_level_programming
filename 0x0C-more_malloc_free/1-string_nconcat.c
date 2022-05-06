@@ -19,7 +19,7 @@ s1 = "";
 if (s2 == NULL)
 s2 = "";
 
-for (i = 0; s1[i] || s2[i]; i++)
+for (i = 0; s1[i]; i++)
 len++;
 
 n_concat = malloc(sizeof(char) * (len + 1));
