@@ -9,12 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int i = 0;
-
 (void) argv;
-while (i < (argc - 1))
-i++;
-
-printf("%d\n", i);
+printf("%i\n", argc - 1);
 return (0);
 }
