@@ -18,13 +18,10 @@ if (argc <= 1)
 printf("0\n");
 
 if (!isdigit(atoi(*argv[i])))
-{
 break;
-}
 else
-{
 sum += atoi(*argv[i]);
-}
+
 i++;
 }
 
