@@ -24,7 +24,7 @@ return (NULL);
 
 for (i = 0; i <= len; i++)
 *(s + i) = *(str + i);
-  
+
 return (s);
 }
 
