@@ -65,41 +65,37 @@ printf("%f", va_arg(list, double));
  */
 void print_all(const char * const format, ...)
 {
-unsigned int i, j;
+unsigned int i = 0, j = 0;
+char *separator = "";
 
-t_print t[] = {
+va_list args;
+
+printer_t funcs[] = {
 {"c", print_char},
-{"s", print_string},
-{"i", print_integer},
+{"i", print_int},
 {"f", print_float},
-{NULL, NULL}
+{"s", print_string}
 };
 
-va_list valist;
-char *s = "";
-va_start(valist, format);
-i = 0;
+va_start(args, format);
 
-while (format && format[i])
+while (format && (*(format + i)))
 {
 j = 0;
 
-while (t[j].x != NULL)
-{
-if (*(t[j].x) == format[i])
-{
-printf("%s", s);
-t[j].T_func(valist);
-s = ", ";
-break;
-}
-
+while (j < 4 && (*(format + i) != *(funcs[j].symbol)))
 j++;
+
+if (j < 4)
+{
+printf("%s", separator);
+funcs[j].print(args);
+separator = ", ";
 }
 
 i++;
 }
 
-va_end(valist);
 printf("\n");
+va_end(args);
 }
