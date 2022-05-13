@@ -36,11 +36,11 @@ printf("%s", str);
 }
 
 /**
- * print_integer - prints an integer
+ * print_int - prints an integer
  * @list: list of arguments pointing to
  *        the integer to be printed
  */
-void print_integer(va_list list)
+void print_int(va_list list)
 {
 printf("%i", va_arg(list, int));
 }
