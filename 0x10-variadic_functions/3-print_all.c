@@ -65,7 +65,7 @@ printf("%f", va_arg(list, double));
  */
 void print_all(const char * const format, ...)
 {
-unsigned int i = 0, j;
+unsigned int i, j;
 
 t_print t[] = {
 {"c", print_char},
@@ -78,7 +78,7 @@ t_print t[] = {
 va_list valist;
 char *s = "";
 va_start(valist, format);
-/*i = 0;*/
+i = 0;
 
 while (format && format[i])
 {
