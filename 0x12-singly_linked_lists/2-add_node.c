@@ -16,7 +16,7 @@ list_t *new_node;
 
 i = 0;
 
-while (str[cont] != '\0')
+while (str[i] != '\0')
 {
 i++;
 }
