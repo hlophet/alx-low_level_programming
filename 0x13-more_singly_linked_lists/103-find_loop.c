@@ -20,7 +20,7 @@ while (node2)
 {
 if (node1 == node2)
 {
-node1 = node2;
+node1 = head;
 
 while (node1 != node2)
 {
