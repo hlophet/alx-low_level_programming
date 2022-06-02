@@ -48,7 +48,7 @@ if (r == -1)
 
 w = write(to, buff, r);
 
-if (w > r)
+if (w > r || w = -1)
 {
 	close(from), close(to);
 	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
@@ -57,14 +57,9 @@ if (w > r)
 count--;
 }
 
-if (close(from) == -1)
+if ((close(from) == -1) || (close(to) == -1))
 {
 	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from), exit(100);
-}
-
-if (close(to) == -1)
-{
-	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", to), exit(100);
 }
 
 return (0);
