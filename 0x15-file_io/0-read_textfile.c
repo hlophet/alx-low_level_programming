@@ -30,6 +30,6 @@ return (0);
 }
 
 close(o);
-free(buffer);
+free(buff);
 return (w);
 }
