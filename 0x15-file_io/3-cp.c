@@ -90,7 +90,7 @@ char *create_buffer(char *filename)
 {
     char *buff;
 
-    buff = malloc(3000 * sizeof(char));
+    buff = malloc(1024 * sizeof(char));
 
     if (buff == NULL)
     {
