@@ -57,10 +57,11 @@ if (w > r || w = -1)
 count--;
 }
 
-if ((close(from) == -1) || (close(to) == -1))
-{
+if ((close(from) == -1)
 	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from), exit(100);
-}
+
+if (close(to) == -1)
+	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from), exit(100);
 
 return (0);
 }
