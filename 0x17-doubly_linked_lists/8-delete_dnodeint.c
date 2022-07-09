@@ -16,7 +16,7 @@ if (*head == NULL)
 return (-1);
 
 for (; index != 0; index--)
-{		
+{
 if (tmp == NULL)
 return (-1);
 
